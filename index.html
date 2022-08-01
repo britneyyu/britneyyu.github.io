@@ -4,48 +4,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Britney Yu</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </head>
 
 <body class="body">
-    <div class="topnav">
-        <a class="active" href="#section1">
-            <img src="pictures/homepage.png" width="34px" height="auto">
-        </a>
-        <a href="#section2">
-            <img src="pictures/projects.png" width="30px" height="auto">
-        </a>
-        <a href="#section3">
-            <img src="pictures/helping-hands.png" width="54px" height="auto">
-        </a>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#section1">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section2">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section3">Volunteering</a>
+              </li>
+            </ul>
+
+
+          </div>
+        </div>
+        <a class="navbar-brand center" href="#">BRITNEY YU</a>
+      </nav>
+        
     </div>
-    <div class="card">
+    <div class="cardd">
         <div class="main" id="section1">
             <div class="row">
                 <div class="column">
                     <h1 class="h1">Hello!</h1>
                     <h2 class="h2">My name is Britney Yu and I am a rising senior in Software Engineering at Iowa State University</h2>
-                    <p class="p">
-                         
+                    <p class="p">   
                     </p>
                     <br>
-                    <br>
-
                     <div class="card2">
                         <p class="p">Involvement at Iowa State University</p>
                         <ul class="a">
                             <li class="p">Peer Mentor of the LEAD Learning Community</li>
-                            <a href="https://www.engineering.iastate.edu/lead/"><button>LEAD LLC Website</button></a>                            
+                            <a href="https://www.engineering.iastate.edu/lead/"><button type="button" class="btn btn-info">LEAD LLC Website</button></a>                            
                             <li class="p">Industry Relations of Digital Women</li>
-                            <a href="https://digitalwomen.ece.iastate.edu/"><button>Digital Women Website</button></a>    
+                            <a href="https://digitalwomen.ece.iastate.edu/"><button type="button" class="btn btn-info">Digital Women Website</button></a>    
                             <li class="p">APEX Scholar</li>
-                            <a href="https://news.engineering.iastate.edu/2019/08/15/apex-for-engineers-starts-new-cyclone-engineers-off-strong/"><button>APEX 2019 Cohort</button></a>    
+                            <a href="https://news.engineering.iastate.edu/2019/08/15/apex-for-engineers-starts-new-cyclone-engineers-off-strong/"><button  type="button" class="btn btn-info">APEX 2019 Cohort</button></a>    
                         </ul>
                     </div>                    
                 </div>
-                <div class="column" style="right: auto;">
-                    <img src="pictures/britneyyu.jpg" width="300" height="auto" alt="britneyyu">
+                <div class="column" style="padding: 0x 0px 0px 0px;">
+                    <img src="pictures/britneyyu.jpg" class="img-fluid" width="300px" alt="britneyyu">
                 </div>
             </div>
         </div>
@@ -54,33 +67,12 @@
             <div class="row">
                 <div class="column">
                     <h1 class="h1">PROJECTS</h1>
-                    <p class="h2">Here are some past projects that I have worked on. These include a lot of school
+                    <p class="p">Here are some past projects that I have worked on. These include a lot of school
                         projects that I have completed in my time in high school and college. These projects gave me the
                         opportunity to apply my
                         knowledge of coding to other applications such as websites, applications, or even physical
                         hardware.
                     </p>
-                    <div class="card2">
-                        <h2 class="h2">Battle of Boats</h2>
-                        <h3 class="h2">SE 319</h3>
-                        <div class="row">
-                            <p class="p">Learned the fundmentals of the construction of user interfaces. Learned
-                                javascript
-                                that
-                                was applied for this project.The project was our rendition of "battle-ship". Our group
-                                decided
-                                that creating a game
-                                would be a great way to learn and apply our practices to an application. We creating our
-                                website
-                                using React.js and
-                                the majority of our code was done in javascript.</p>
-                            <div class="column" style="padding-top: 0px;">
-                                <video controls="controls" width="400" height="300" name="Video Name">
-                                    <source src="videos/G07 - BoatsOfBattleship.mov">
-                                </video>
-                            </div>
-                        </div>
-                    </div>
 
                     <br>
 
