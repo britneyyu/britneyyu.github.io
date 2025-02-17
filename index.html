@@ -8,20 +8,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </head>
 
-<body class="body">
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">BRITNEY YU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#section1">Home</a>
+                        <a class="nav-link" href="#section1">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#section2">Projects</a>
@@ -32,129 +34,123 @@
                 </ul>
             </div>
         </div>
-        <a class="navbar-brand center" href="#">BRITNEY YU</a>
     </nav>
 
-    </div>
-    <div>
-        <div class="main" id="section1">
-            <div class="row">
-                <div class="column">
+    <section id="section1" class="min-vh-100 d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
                     <h1 class="h1">Hello!</h1>
-                    <h2 class="h2">My name is Britney Yu and I am as senior in Software Engineering at Iowa State
-                        University</h2>
-                    <p class="p">
-                    </p>
-                    <br>
-                    <div class="card2">
-                        <p class="p">Involvement at Iowa State University</p>
-                        <ul class="a">
-                            <li class="p">Peer Mentor of the LEAD Learning Community (3 years)</li> <a
-                                href="https://www.engineering.iastate.edu/lead/" target="_blank"><button type="button"
-                                    class="btn btn-link">LEAD
-                                    LLC Website</button></a>
-                            <li class="p">Industry Relations of Digital Women (2 years)</li> <a
-                                href="https://digitalwomen.ece.iastate.edu/" target="_blank"><button type="btn btn-link"
-                                    class="btn btn-link">Digital
-                                    Women Website</button></a>
-                            <li class="p">APEX Scholar (Summer 2019)</li> <a
-                                href="https://news.engineering.iastate.edu/2019/08/15/apex-for-engineers-starts-new-cyclone-engineers-off-strong/"
-                                target="_blank"><button type="button" class="btn btn-link">APEX 2019 Cohort</button></a>
-                        </ul>
-                    </div>
-                </div>
-                <div class="column" style="padding: 200px 200px 200px 200px;">
-                    <img src="pictures/Britney.jpg" class="img-fluid" width="300px" alt="britneyyu">
-                </div>
-            </div>
-        </div>
-
-        <div class"main" id="section2">
-            <div class="row">
-                <div class="column">
-                    <h1 class="h1">PROJECTS</h1>
-                    <p class="p">Here are some past projects that I have worked on. These include a lot of school
-                        projects that I have completed in my time in high school and college. These projects gave me the
-                        opportunity to apply my
-                        knowledge of coding to other applications such as websites, applications, or even physical
-                        hardware.
-                    </p>
-
-                    <br>
-
-                    <div class="card2">
-                        <h2 class="h2">Scout</h2>
-                        <h3 class="h2">COMS 309</h3>
-                        <div class="row">
-                            <p class="p">Created an adventure app with Android Studio. Worked on the frontend code using
-                                Java.</p>
-                            <div class="column" style="padding-top: 0px;">
-                                <video controls="controls" width="400" height="300" name="Video Name">
-                                    <source src="videos/scoutappdemo.mp4">
-                                </video>
+                    <h2 class="h2">My name is Britney Yu and I am a Software Engineer </h2>
+                    <div class="avatar-container">
+                        <div class="avatar">
+                            <div class="hair"></div>
+                            <div class="face">
+                                <div class="eyes">
+                                    <div class="eye left"></div>
+                                    <div class="eye right"></div>
+                                </div>
+                                <div class="smile"></div>
                             </div>
                         </div>
                     </div>
-
-                    <br>
-
-                    <div class="card2">
-                        <h2 class="h2">Portafolio</h2>
-                        <h3 class="h2">SE 186X</h3>
-                        <div class="row">
-                            <p class="p">Created a React website that would generate a resume based on the information
-                                entered by the user.</p>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="card2">
-                        <h2 class="h2">Skeeball Game</h2>
-                        <h3 class="h2">Senior Technology and Design</h3>
-                        <div class="row">
-                            <p class="p">Designed a built a skeeball game using the engineering design process. Created
-                                design of
-                                the skeeball game in AutoDesk Inventor. Constructed the skeeball game using machine shop
-                                tools. Materials
-                                included wood, screws, hinges, glue, and netting. Coded the score board using an Arduino
-                                Mega in C++.
-                            </p>
-                        </div>
-
-                    </div>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <img src="pictures/britney_y.jpg" class="img-fluid w-50" alt="Britney Yu">
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class"main" id="section3">
+    <section id="section2" class="py-5">
+        <div class="container section-content">
+            <h1 class="h1 text-center mb-5">Projects</h1>
+            <p class="lead text-center mb-5">Here are some past projects that I have worked on. These include school
+                projects that I have completed in my time in high school and college, applying my
+                knowledge of coding to websites, applications, and hardware.</p>
+
             <div class="row">
-                <div class="column">
-                    <h1 class="h1">Volunteering</h1>
+                <div class="col-md-12 project-card">
                     <div class="card2">
-                        <h2>Reimann Gardens</h2>
-                        <p class="p">Helped out the local garden in Ames in it's upcoming exhibits as well as
-                            maintaining it's beautiful
-                            nature. Spent time in upkeeping the gardens on display and giving input on future exhibits.
-                            Dedicated my
-                            attention to detail in helping with the annual pumpkin stenciling and carving. </p>
+                        <h2 class="card-title h2">Scout</h2>
+                        <h3 class="card-subtitle">COMS 309</h3>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <p class="card-text">Created an adventure app with Android Studio. Worked on the frontend code using Java.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="video-container">
+                                    <video controls>
+                                        <source src="videos/scoutappdemo.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                    <br>
+            </div>
 
+            <div class="row">
+                <div class="col-md-12 project-card">
+                    <div class="card2 h-100">
+                        <h2 class="card-title h2">Boats of Battle</h2>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <p class="card-text">Created a game using the engineering design process. The game is a simulation of battleship against a computer player.
+                                    The game is programmed in Typescript and uses the React Framework.</p>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <div class="video-container text-center">
+                                    <video controls class="mx-auto">
+                                        <source src="videos/G07 - BoatsOfBattleship.mov" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section3" class="py-5">
+        <div class="container section-content">
+            <h1 class="h1 text-center mb-5">Iowa State University</h1>
+            <div class="card2 mt-4">
+                <h3 class="h2 mb-4">Involvement</h3>
+                <ul class="a">
+                    <li>Peer Mentor of the LEAD Learning Community (3 years)
+                        <a href="https://www.engineering.iastate.edu/lead/" target="_blank" class="btn btn-link">LEAD LLC Website</a>
+                    </li>
+                    <li>Industry Relations of Digital Women (2 years)
+                        <a href="https://digitalwomen.ece.iastate.edu/" target="_blank" class="btn btn-link">Digital Women Website</a>
+                    </li>
+                    <li>APEX Scholar (Summer 2019)
+                        <a href="https://news.engineering.iastate.edu/2019/08/15/apex-for-engineers-starts-new-cyclone-engineers-off-strong/"
+                            target="_blank" class="btn btn-link">APEX 2019 Cohort</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-md-6 project-card">
                     <div class="card2">
-                        <h2>Multicultural Scholars Preview</h2>
-                        <p class="p">Iowa State University hosts the Multicultural Scholars Preview event on campus for
-                            future students
-                            to experience life at Iowa State. Presented about my experience at Iowa State to potential incoming students and their parents.
+                        <h2 class="card-title h2">God Who Delivers</h2>
+                        <p class="card-text">Volunteered at the God Who Delivers food pantry in Soho, NY. Helped sort and organize food donations,
+                            and assisted clients with finding the items they needed.
                         </p>
                     </div>
-                    <br>
+                    <div class="card2">
+                        <h2 class="card-title h2">Reimann Gardens</h2>
+                        <p class="card-text">Helped out the local garden in Ames with its upcoming exhibits and maintenance. Contributed to garden
+                            upkeep and future exhibit planning. Participated in annual pumpkin stenciling and carving events.</p>
+                    </div>
                 </div>
+
             </div>
         </div>
-    </div>
-
+    </section>
 </body>
 
 </html>
